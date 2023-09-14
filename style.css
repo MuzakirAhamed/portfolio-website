@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-anchor: none;
+}
+
+body {
+  background-color: rgb(0, 0, 29);
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0c0c3c;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 20px;
+  font-size: 1.3rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+.left-part {
+  font-size: 2.5rem;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px;
+}
+
+.leftpart-section {
+  font-size: 2.5rem;
+  width: 35%;
+  margin: auto;
+}
+
+.rightpart-section {
+  margin: 20px 40px;
+}
+
+#name {
+  color: rgb(128, 40, 128);
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-text {
+  font-size: 3rem;
+}
+
+.top-image img {
+  border-radius: 50%;
+  margin: 50px 0px;
+}
+
+.bottom-text {
+  font-size: 1.6rem;
+  width: 58rem;
+  height: fit-content;
+}
+
+.bottom-text p {
+  margin-block-start: 1em;
+  margin-block-end: 3em;
+
+}
+
+.skills-text {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0px 100px 0px;
+}
+
+.skills-box {
+  width: 75%;
+  margin: auto;
+}
+
+.front-end {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.front-end-text {
+  flex-basis: 45%;
+  font-size: 3rem;
+}
+
+.backend,
+.database,
+.others {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.backend-text,
+.database-text,
+.others-text {
+  font-size: 3rem;
+}
+
+.back-end-skills,
+.database-end-skills,
+.others-skills {
+  flex-basis: 50%;
+}
+
+.back-end-skills img {
+  margin: 0px 20px;
+}
+
+.others {
+  margin: 30px 0px;
+}
+
+#skills {
+  margin-bottom: 100px;
+}
+
+.project-name {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container-projects {
+  width: 75%;
+  height: fit-content;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.image-slideshow {
+  /* width: 100px; */
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.project1,
+.project-2 {
+  margin: 30px;
+  display: flex;
+}
+
+@keyframes fade {
+  from {
+    opacity: .5
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.project1-about,
+.project2-text {
+  margin: 0px 50px;
+  font-size: 1.4rem;
+}
+
+.project1-about li,
+.project2-text li {
+  margin: 30px 0px;
+}
+
+.stacks {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#red {
+  color: red;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.project-2 {
+  display: flex;
+}
+
+.connect {
+  margin: 200px 0px
+}
+
+.connect-text {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gmail {
+  width: 50%;
+  margin: auto;
+}
+
+.mail {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.mail-input {
+  margin: 0px 50px;
+  font-size: 2rem;
+}
+
+.mail-input a {
+  text-decoration: none;
+  color: white;
+}
+
+.resume {
+  color: white;
+  font-size: 1.4rem;
+  transition: 1s;
+}
+
+.resume:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+.hamburger{
+  border: none;
+  background: none;
+  font-size: 2rem;
+  cursor: pointer;
+}

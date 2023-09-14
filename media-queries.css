@@ -1,0 +1,557 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+    body {
+        width: 100%;
+    }
+
+    #home {
+        width: 100vw;
+        position: relative;
+    }
+
+    /* hamburger */
+    .right-part {
+        position: absolute;
+        top: 100px;
+        display: none;
+    }
+
+    .right-part.open-menu {
+        display: block;
+    }
+
+    .right-part ul {
+        display: flex;
+        flex-direction: column;
+        background-color: #0c0c3c;
+        width: 80vw;
+        text-align: center;
+
+    }
+
+    .right-part ul li {
+        margin: 2px 0px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .left-part {
+        font-size: 1.5rem;
+    }
+
+    /* .right-part {
+        display: none;
+    } */
+
+    .leftpart-section {
+        flex-basis: 50%;
+        font-size: 1.5rem;
+        margin-left: 30px;
+    }
+
+    .rightpart-section {
+        flex-basis: 50%;
+    }
+
+    .rightpart-section img {
+        width: 50vw;
+        height: 400px;
+    }
+
+    #about {
+        width: 80%;
+        margin: auto;
+    }
+
+    .top-image img {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .bottom-text {
+        width: 80vw;
+    }
+
+    .bottom-text p {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    #skills {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .skills-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .front-end-text {
+        font-size: 1.5rem;
+        flex-basis: 40%;
+    }
+
+    .skills-info img {
+        width: 40px;
+    }
+
+    .backend {
+        display: flex;
+    }
+
+    .backend-text {
+        font-size: 1.5rem;
+        flex-basis: 40%;
+        margin: auto;
+    }
+
+    .back-end-skills {
+        flex-basis: 60%;
+    }
+
+    .back-end-skills img {
+        height: 45px;
+    }
+
+    .databse {
+        display: flex;
+        margin: 40px 0px;
+    }
+
+    .database-text {
+        font-size: 1.5rem;
+        margin: auto;
+        text-align: start;
+        flex-basis: 40%;
+    }
+
+    .database-end-skills {
+        flex-basis: 60%;
+        margin: auto;
+    }
+
+    .backend-img img {
+        height: 65px;
+        margin: auto;
+    }
+
+    .others-skills {
+        flex-basis: 60%;
+    }
+
+    .others-skills img {
+        height: 55px;
+    }
+
+    .others-text {
+        font-size: 1.5rem;
+    }
+
+    #projects {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .container-projects {
+        width: 100%;
+    }
+
+    .project1 {
+        display: block;
+    }
+
+    .project1 img {
+        width: 100%;
+    }
+
+    .project-2 {
+        display: block;
+    }
+
+    .project-2 img {
+        width: 100%;
+    }
+
+    #contact {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .gmail {
+        margin: 0%;
+    }
+
+    .mail-input {
+        font-size: 1.3rem;
+        width: 50%;
+        flex-basis: 75%;
+        margin-inline-start: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    #home {
+        width: 100%;
+    }
+
+    .left-part {
+        font-size: 1.5rem;
+    }
+
+    .right-part {
+        position: absolute;
+        top: 100px;
+        display: none;
+    }
+
+    .right-part.open-menu {
+        display: block;
+    }
+
+    .right-part ul {
+        display: flex;
+        flex-direction: column;
+        background-color: #0c0c3c;
+        width: 80vw;
+        text-align: center;
+
+    }
+
+    .right-part ul li {
+        margin: 2px 0px;
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    .right-part {
+        display: none;
+    }
+
+    .leftpart-section {
+        flex-basis: 50%;
+        font-size: 1.5rem;
+        margin-left: 30px;
+    }
+
+    .rightpart-section {
+        flex-basis: 50%;
+    }
+
+    .rightpart-section img {
+        width: 50vw;
+        height: 400px;
+    }
+
+    #about {
+        width: 80%;
+        margin: auto;
+    }
+
+    .top-image img {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .bottom-text {
+        width: 80vw;
+    }
+
+    .bottom-text p {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    #skills {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .skills-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .front-end-text {
+        font-size: 1.5rem;
+        flex-basis: 40%;
+    }
+
+    .skills-info {
+        flex-basis: 60%;
+    }
+
+    .skills-info img {
+        width: 40px;
+    }
+
+    .backend {
+        display: flex;
+    }
+
+    .backend-text {
+        font-size: 1.5rem;
+        flex-basis: 40%;
+        margin: auto;
+    }
+
+    .back-end-skills {
+        flex-basis: 60%;
+    }
+
+    .back-end-skills img {
+        height: 45px;
+    }
+
+    .databse {
+        display: flex;
+        margin: 40px 0px;
+    }
+
+    .database-text {
+        font-size: 1.5rem;
+        margin: auto;
+        text-align: start;
+        flex-basis: 40%;
+    }
+
+    .database-end-skills {
+        flex-basis: 60%;
+        margin: auto;
+    }
+
+    .backend-img img {
+        height: 65px;
+        margin: auto;
+    }
+
+    .others-skills {
+        flex-basis: 60%;
+    }
+
+    .others-skills img {
+        height: 55px;
+    }
+
+    .others-text {
+        font-size: 1.5rem;
+    }
+
+    #projects {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .container-projects {
+        width: 100%;
+    }
+
+    .project1 {
+        display: block;
+    }
+
+    .project1 img {
+        width: 100%;
+    }
+
+    .project-2 {
+        display: block;
+    }
+
+    .project-2 img {
+        width: 100%;
+    }
+
+    #contact {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .gmail {
+        margin: 0%;
+    }
+
+    .mail-input {
+        font-size: 1.5rem;
+        width: 60%;
+        flex-basis: 75%;
+        margin-inline-start: 10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1070px) {
+    body {
+        width: 100%;
+    }
+
+    #home {
+        width: 100%;
+    }
+
+    .left-part {
+        font-size: 1.5rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .leftpart-section {
+        flex-basis: 50%;
+        font-size: 1.5rem;
+        margin-left: 30px;
+    }
+
+    .rightpart-section {
+        flex-basis: 50%;
+    }
+
+    .rightpart-section img {
+        width: 50vw;
+        height: 400px;
+    }
+
+    #about {
+        width: 80%;
+        margin: auto;
+    }
+
+    .top-image img {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .bottom-text {
+        width: 80vw;
+    }
+
+    .bottom-text p {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    #skills {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .skills-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .front-end-text {
+        font-size: 1.5rem;
+        flex-basis: 40%;
+    }
+
+    .skills-info {
+        flex-basis: 60%;
+    }
+
+    .skills-info img {
+        width: 40px;
+    }
+
+    .backend {
+        display: flex;
+    }
+
+    .backend-text {
+        font-size: 1.5rem;
+        flex-basis: 40%;
+        margin: auto;
+    }
+
+    .back-end-skills {
+        flex-basis: 60%;
+    }
+
+    .back-end-skills img {
+        height: 45px;
+    }
+
+    .databse {
+        display: flex;
+        margin: 40px 0px;
+    }
+
+    .database-text {
+        font-size: 1.5rem;
+        margin: auto;
+        text-align: start;
+        flex-basis: 40%;
+    }
+
+    .database-end-skills {
+        flex-basis: 60%;
+        margin: auto;
+    }
+
+    .backend-img img {
+        height: 65px;
+        margin: auto;
+    }
+
+    .others-skills {
+        flex-basis: 60%;
+    }
+
+    .others-skills img {
+        height: 55px;
+    }
+
+    .others-text {
+        font-size: 1.5rem;
+    }
+
+    #projects {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .container-projects {
+        width: 100%;
+    }
+
+    .project1 {
+        display: block;
+    }
+
+    .project1 img {
+        width: 100%;
+    }
+
+    .project-2 {
+        display: block;
+    }
+
+    .project-2 img {
+        width: 100%;
+    }
+
+    #contact {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .gmail {
+        margin: 0%;
+    }
+
+    .mail-input {
+        font-size: 1.5rem;
+        width: 60%;
+        flex-basis: 75%;
+        margin-inline-start: 10px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .hamburger{
+        display: none;
+    }
+}
